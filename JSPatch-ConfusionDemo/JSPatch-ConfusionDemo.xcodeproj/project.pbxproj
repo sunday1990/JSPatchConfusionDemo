@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168ECC931E9DC6F800E11A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECC921E9DC6F800E11A58 /* main.m */; };
+		168ECC961E9DC6F800E11A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECC951E9DC6F800E11A58 /* AppDelegate.m */; };
+		168ECC991E9DC6F800E11A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECC981E9DC6F800E11A58 /* ViewController.m */; };
+		168ECC9C1E9DC6F800E11A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168ECC9A1E9DC6F800E11A58 /* Main.storyboard */; };
+		168ECC9E1E9DC6F800E11A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168ECC9D1E9DC6F800E11A58 /* Assets.xcassets */; };
+		168ECCA11E9DC6F800E11A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168ECC9F1E9DC6F800E11A58 /* LaunchScreen.storyboard */; };
+		168ECCAC1E9DC6F800E11A58 /* JSPatch_ConfusionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECCAB1E9DC6F800E11A58 /* JSPatch_ConfusionDemoTests.m */; };
+		168ECCB71E9DC6F800E11A58 /* JSPatch_ConfusionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECCB61E9DC6F800E11A58 /* JSPatch_ConfusionDemoUITests.m */; };
+		168ECCC61E9DC71500E11A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168ECCC51E9DC71500E11A58 /* UIKit.framework */; };
+		168ECCC81E9DC71C00E11A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168ECCC71E9DC71C00E11A58 /* Foundation.framework */; };
+		168ECCD11E9DC75700E11A58 /* SpaceHomeEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECCCC1E9DC75700E11A58 /* SpaceHomeEvaluator.m */; };
+		168ECCD21E9DC75700E11A58 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 168ECCCE1E9DC75700E11A58 /* main.js */; };
+		168ECCD31E9DC75700E11A58 /* SpaceHome.js in Resources */ = {isa = PBXBuildFile; fileRef = 168ECCD01E9DC75700E11A58 /* SpaceHome.js */; };
+		168ECCD71E9DC76400E11A58 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 168ECCD51E9DC76400E11A58 /* confuse.sh */; };
+		168ECCD81E9DC76400E11A58 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 168ECCD61E9DC76400E11A58 /* func.list */; };
+		168ECCDE1E9DD0F800E11A58 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ECCDC1E9DD0F800E11A58 /* JPEngine.m */; };
+		168ECCDF1E9DD0F800E11A58 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 168ECCDD1E9DD0F800E11A58 /* JSPatch.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168ECCA81E9DC6F800E11A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168ECC861E9DC6F800E11A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168ECC8D1E9DC6F800E11A58;
+			remoteInfo = "JSPatch-ConfusionDemo";
+		};
+		168ECCB31E9DC6F800E11A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168ECC861E9DC6F800E11A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168ECC8D1E9DC6F800E11A58;
+			remoteInfo = "JSPatch-ConfusionDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168ECC8E1E9DC6F800E11A58 /* JSPatch-ConfusionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSPatch-ConfusionDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ECC921E9DC6F800E11A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		168ECC941E9DC6F800E11A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		168ECC951E9DC6F800E11A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		168ECC971E9DC6F800E11A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		168ECC981E9DC6F800E11A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		168ECC9B1E9DC6F800E11A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168ECC9D1E9DC6F800E11A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168ECCA01E9DC6F800E11A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168ECCA21E9DC6F800E11A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ECCA71E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSPatch-ConfusionDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ECCAB1E9DC6F800E11A58 /* JSPatch_ConfusionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatch_ConfusionDemoTests.m; sourceTree = "<group>"; };
+		168ECCAD1E9DC6F800E11A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ECCB21E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSPatch-ConfusionDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ECCB61E9DC6F800E11A58 /* JSPatch_ConfusionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatch_ConfusionDemoUITests.m; sourceTree = "<group>"; };
+		168ECCB81E9DC6F800E11A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ECCC51E9DC71500E11A58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		168ECCC71E9DC71C00E11A58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		168ECCCB1E9DC75700E11A58 /* SpaceHomeEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceHomeEvaluator.h; sourceTree = "<group>"; };
+		168ECCCC1E9DC75700E11A58 /* SpaceHomeEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceHomeEvaluator.m; sourceTree = "<group>"; };
+		168ECCCE1E9DC75700E11A58 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		168ECCD01E9DC75700E11A58 /* SpaceHome.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SpaceHome.js; sourceTree = "<group>"; };
+		168ECCD41E9DC76400E11A58 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		168ECCD51E9DC76400E11A58 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		168ECCD61E9DC76400E11A58 /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		168ECCDB1E9DD0F800E11A58 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		168ECCDC1E9DD0F800E11A58 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		168ECCDD1E9DD0F800E11A58 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168ECC8B1E9DC6F800E11A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ECCC81E9DC71C00E11A58 /* Foundation.framework in Frameworks */,
+				168ECCC61E9DC71500E11A58 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ECCA41E9DC6F800E11A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ECCAF1E9DC6F800E11A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168ECC851E9DC6F800E11A58 = {
+			isa = PBXGroup;
+			children = (
+				168ECCD41E9DC76400E11A58 /* codeObfuscation.h */,
+				168ECCD51E9DC76400E11A58 /* confuse.sh */,
+				168ECCD61E9DC76400E11A58 /* func.list */,
+				168ECC901E9DC6F800E11A58 /* JSPatch-ConfusionDemo */,
+				168ECCAA1E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests */,
+				168ECCB51E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests */,
+				168ECC8F1E9DC6F800E11A58 /* Products */,
+				168ECCC41E9DC71500E11A58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		168ECC8F1E9DC6F800E11A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168ECC8E1E9DC6F800E11A58 /* JSPatch-ConfusionDemo.app */,
+				168ECCA71E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests.xctest */,
+				168ECCB21E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168ECC901E9DC6F800E11A58 /* JSPatch-ConfusionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCDA1E9DD0DE00E11A58 /* JSPatch */,
+				168ECCC91E9DC75700E11A58 /* SpaceHomePatch */,
+				168ECC941E9DC6F800E11A58 /* AppDelegate.h */,
+				168ECC951E9DC6F800E11A58 /* AppDelegate.m */,
+				168ECC971E9DC6F800E11A58 /* ViewController.h */,
+				168ECC981E9DC6F800E11A58 /* ViewController.m */,
+				168ECC9A1E9DC6F800E11A58 /* Main.storyboard */,
+				168ECC9D1E9DC6F800E11A58 /* Assets.xcassets */,
+				168ECC9F1E9DC6F800E11A58 /* LaunchScreen.storyboard */,
+				168ECCA21E9DC6F800E11A58 /* Info.plist */,
+				168ECC911E9DC6F800E11A58 /* Supporting Files */,
+			);
+			path = "JSPatch-ConfusionDemo";
+			sourceTree = "<group>";
+		};
+		168ECC911E9DC6F800E11A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				168ECC921E9DC6F800E11A58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		168ECCAA1E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCAB1E9DC6F800E11A58 /* JSPatch_ConfusionDemoTests.m */,
+				168ECCAD1E9DC6F800E11A58 /* Info.plist */,
+			);
+			path = "JSPatch-ConfusionDemoTests";
+			sourceTree = "<group>";
+		};
+		168ECCB51E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCB61E9DC6F800E11A58 /* JSPatch_ConfusionDemoUITests.m */,
+				168ECCB81E9DC6F800E11A58 /* Info.plist */,
+			);
+			path = "JSPatch-ConfusionDemoUITests";
+			sourceTree = "<group>";
+		};
+		168ECCC41E9DC71500E11A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCC71E9DC71C00E11A58 /* Foundation.framework */,
+				168ECCC51E9DC71500E11A58 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		168ECCC91E9DC75700E11A58 /* SpaceHomePatch */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCCA1E9DC75700E11A58 /* Evaluator */,
+				168ECCCD1E9DC75700E11A58 /* JSFiles */,
+				168ECCCF1E9DC75700E11A58 /* SpaceHomeJs */,
+			);
+			path = SpaceHomePatch;
+			sourceTree = "<group>";
+		};
+		168ECCCA1E9DC75700E11A58 /* Evaluator */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCCB1E9DC75700E11A58 /* SpaceHomeEvaluator.h */,
+				168ECCCC1E9DC75700E11A58 /* SpaceHomeEvaluator.m */,
+			);
+			path = Evaluator;
+			sourceTree = "<group>";
+		};
+		168ECCCD1E9DC75700E11A58 /* JSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCCE1E9DC75700E11A58 /* main.js */,
+			);
+			path = JSFiles;
+			sourceTree = "<group>";
+		};
+		168ECCCF1E9DC75700E11A58 /* SpaceHomeJs */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCD01E9DC75700E11A58 /* SpaceHome.js */,
+			);
+			path = SpaceHomeJs;
+			sourceTree = "<group>";
+		};
+		168ECCDA1E9DD0DE00E11A58 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				168ECCDB1E9DD0F800E11A58 /* JPEngine.h */,
+				168ECCDC1E9DD0F800E11A58 /* JPEngine.m */,
+				168ECCDD1E9DD0F800E11A58 /* JSPatch.js */,
+			);
+			name = JSPatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168ECC8D1E9DC6F800E11A58 /* JSPatch-ConfusionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ECCBB1E9DC6F800E11A58 /* Build configuration list for PBXNativeTarget "JSPatch-ConfusionDemo" */;
+			buildPhases = (
+				168ECC8A1E9DC6F800E11A58 /* Sources */,
+				168ECC8B1E9DC6F800E11A58 /* Frameworks */,
+				168ECC8C1E9DC6F800E11A58 /* Resources */,
+				168ECCD91E9DC77000E11A58 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSPatch-ConfusionDemo";
+			productName = "JSPatch-ConfusionDemo";
+			productReference = 168ECC8E1E9DC6F800E11A58 /* JSPatch-ConfusionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168ECCA61E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ECCBE1E9DC6F800E11A58 /* Build configuration list for PBXNativeTarget "JSPatch-ConfusionDemoTests" */;
+			buildPhases = (
+				168ECCA31E9DC6F800E11A58 /* Sources */,
+				168ECCA41E9DC6F800E11A58 /* Frameworks */,
+				168ECCA51E9DC6F800E11A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168ECCA91E9DC6F800E11A58 /* PBXTargetDependency */,
+			);
+			name = "JSPatch-ConfusionDemoTests";
+			productName = "JSPatch-ConfusionDemoTests";
+			productReference = 168ECCA71E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168ECCB11E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ECCC11E9DC6F800E11A58 /* Build configuration list for PBXNativeTarget "JSPatch-ConfusionDemoUITests" */;
+			buildPhases = (
+				168ECCAE1E9DC6F800E11A58 /* Sources */,
+				168ECCAF1E9DC6F800E11A58 /* Frameworks */,
+				168ECCB01E9DC6F800E11A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168ECCB41E9DC6F800E11A58 /* PBXTargetDependency */,
+			);
+			name = "JSPatch-ConfusionDemoUITests";
+			productName = "JSPatch-ConfusionDemoUITests";
+			productReference = 168ECCB21E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168ECC861E9DC6F800E11A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ccSunday;
+				TargetAttributes = {
+					168ECC8D1E9DC6F800E11A58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 457RV2A88C;
+						ProvisioningStyle = Automatic;
+					};
+					168ECCA61E9DC6F800E11A58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168ECC8D1E9DC6F800E11A58;
+					};
+					168ECCB11E9DC6F800E11A58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168ECC8D1E9DC6F800E11A58;
+					};
+				};
+			};
+			buildConfigurationList = 168ECC891E9DC6F800E11A58 /* Build configuration list for PBXProject "JSPatch-ConfusionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168ECC851E9DC6F800E11A58;
+			productRefGroup = 168ECC8F1E9DC6F800E11A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168ECC8D1E9DC6F800E11A58 /* JSPatch-ConfusionDemo */,
+				168ECCA61E9DC6F800E11A58 /* JSPatch-ConfusionDemoTests */,
+				168ECCB11E9DC6F800E11A58 /* JSPatch-ConfusionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168ECC8C1E9DC6F800E11A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ECCD31E9DC75700E11A58 /* SpaceHome.js in Resources */,
+				168ECCA11E9DC6F800E11A58 /* LaunchScreen.storyboard in Resources */,
+				168ECCDF1E9DD0F800E11A58 /* JSPatch.js in Resources */,
+				168ECC9E1E9DC6F800E11A58 /* Assets.xcassets in Resources */,
+				168ECC9C1E9DC6F800E11A58 /* Main.storyboard in Resources */,
+				168ECCD71E9DC76400E11A58 /* confuse.sh in Resources */,
+				168ECCD21E9DC75700E11A58 /* main.js in Resources */,
+				168ECCD81E9DC76400E11A58 /* func.list in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ECCA51E9DC6F800E11A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ECCB01E9DC6F800E11A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168ECCD91E9DC77000E11A58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh $PROJECT_DIR/confuse.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168ECC8A1E9DC6F800E11A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ECC991E9DC6F800E11A58 /* ViewController.m in Sources */,
+				168ECCDE1E9DD0F800E11A58 /* JPEngine.m in Sources */,
+				168ECC961E9DC6F800E11A58 /* AppDelegate.m in Sources */,
+				168ECC931E9DC6F800E11A58 /* main.m in Sources */,
+				168ECCD11E9DC75700E11A58 /* SpaceHomeEvaluator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ECCA31E9DC6F800E11A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ECCAC1E9DC6F800E11A58 /* JSPatch_ConfusionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ECCAE1E9DC6F800E11A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ECCB71E9DC6F800E11A58 /* JSPatch_ConfusionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168ECCA91E9DC6F800E11A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168ECC8D1E9DC6F800E11A58 /* JSPatch-ConfusionDemo */;
+			targetProxy = 168ECCA81E9DC6F800E11A58 /* PBXContainerItemProxy */;
+		};
+		168ECCB41E9DC6F800E11A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168ECC8D1E9DC6F800E11A58 /* JSPatch-ConfusionDemo */;
+			targetProxy = 168ECCB31E9DC6F800E11A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168ECC9A1E9DC6F800E11A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168ECC9B1E9DC6F800E11A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168ECC9F1E9DC6F800E11A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168ECCA01E9DC6F800E11A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168ECCB91E9DC6F800E11A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168ECCBA1E9DC6F800E11A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168ECCBC1E9DC6F800E11A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 457RV2A88C;
+				INFOPLIST_FILE = "JSPatch-ConfusionDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txbd.Deliver.JSPatch-ConfusionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		168ECCBD1E9DC6F800E11A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 457RV2A88C;
+				INFOPLIST_FILE = "JSPatch-ConfusionDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txbd.Deliver.JSPatch-ConfusionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		168ECCBF1E9DC6F800E11A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JSPatch-ConfusionDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txbd.Deliver.JSPatch-ConfusionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatch-ConfusionDemo.app/JSPatch-ConfusionDemo";
+			};
+			name = Debug;
+		};
+		168ECCC01E9DC6F800E11A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JSPatch-ConfusionDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txbd.Deliver.JSPatch-ConfusionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatch-ConfusionDemo.app/JSPatch-ConfusionDemo";
+			};
+			name = Release;
+		};
+		168ECCC21E9DC6F800E11A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JSPatch-ConfusionDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txbd.Deliver.JSPatch-ConfusionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JSPatch-ConfusionDemo";
+			};
+			name = Debug;
+		};
+		168ECCC31E9DC6F800E11A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JSPatch-ConfusionDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txbd.Deliver.JSPatch-ConfusionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JSPatch-ConfusionDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168ECC891E9DC6F800E11A58 /* Build configuration list for PBXProject "JSPatch-ConfusionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ECCB91E9DC6F800E11A58 /* Debug */,
+				168ECCBA1E9DC6F800E11A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ECCBB1E9DC6F800E11A58 /* Build configuration list for PBXNativeTarget "JSPatch-ConfusionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ECCBC1E9DC6F800E11A58 /* Debug */,
+				168ECCBD1E9DC6F800E11A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ECCBE1E9DC6F800E11A58 /* Build configuration list for PBXNativeTarget "JSPatch-ConfusionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ECCBF1E9DC6F800E11A58 /* Debug */,
+				168ECCC01E9DC6F800E11A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ECCC11E9DC6F800E11A58 /* Build configuration list for PBXNativeTarget "JSPatch-ConfusionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ECCC21E9DC6F800E11A58 /* Debug */,
+				168ECCC31E9DC6F800E11A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168ECC861E9DC6F800E11A58 /* Project object */;
+}
